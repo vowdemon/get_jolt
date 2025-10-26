@@ -1,0 +1,21 @@
+name: get_jolt
+description: A GetX-compatible reactive state management library for Flutter.
+version: 0.0.1
+homepage: https://github.com/vowdemon/get_jolt
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  jolt_flutter: ^0.0.5
+
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
