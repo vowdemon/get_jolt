@@ -21,7 +21,7 @@ part of '../rx.dart';
 ///   itemBuilder: (context, index) => Text(items[index]),
 /// ))
 /// ```
-class RxList<E> extends ListSignal<E>
+class RxList<E> extends ListSignalImpl<E>
     with RxObjectMixin<List<E>>
     implements RxInterface<List<E>> {
   /// Creates a reactive list with the specified initial values.

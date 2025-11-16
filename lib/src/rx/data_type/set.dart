@@ -18,7 +18,7 @@ part of '../rx.dart';
 /// // Use in UI
 /// Obx(() => Text('Tags: ${tags.join(', ')}'))
 /// ```
-class RxSet<E> extends SetSignal<E>
+class RxSet<E> extends SetSignalImpl<E>
     with RxObjectMixin<Set<E>>
     implements RxInterface<Set<E>> {
   /// Creates a reactive set with the specified initial values.

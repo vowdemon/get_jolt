@@ -18,7 +18,7 @@ part of '../rx.dart';
 /// // Use in UI
 /// Obx(() => Text('Name: ${userData['name']}'))
 /// ```
-class RxMap<K, V> extends MapSignal<K, V>
+class RxMap<K, V> extends MapSignalImpl<K, V>
     with RxObjectMixin<Map<K, V>>
     implements RxInterface<Map<K, V>> {
   /// Creates a reactive map with the specified initial values.

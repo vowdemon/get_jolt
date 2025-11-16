@@ -42,7 +42,3 @@ export 'src/rx/rx.dart';
 
 export 'package:get/instance_manager.dart';
 export 'package:get/route_manager.dart';
-export 'package:get/get_state_manager/src/simple/get_controllers.dart';
-export 'package:get/get_state_manager/src/simple/get_state.dart';
-export 'package:get/utils.dart';
-export 'package:jolt_flutter/jolt_flutter.dart' show JoltStreamValueExtension;

@@ -5,7 +5,7 @@ part of 'rx.dart';
 /// This typedef maps to Jolt Flutter's Signal type, ensuring seamless
 /// integration with the underlying reactive system while maintaining
 /// GetX API compatibility.
-typedef RxInterface<T> = Signal<T>;
+typedef RxInterface<T> = SignalImpl<T>;
 
 /// Mixin that provides GetX-compatible methods for reactive objects.
 ///
